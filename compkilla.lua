@@ -6153,14 +6153,14 @@ function Compkiller:SetTheme(name)
 		};
 	elseif name == "Default" then
 		Compkiller.Colors = {
-			Highlight = Color3.fromRGB(17, 238, 253),
-			Toggle = Color3.fromRGB(14, 203, 213),
-			Risky = Color3.fromRGB(251, 255, 39),
+			Highlight = Color3.fromRGB(197, 0, 255),
+			Toggle = Color3.fromRGB(197, 0, 255),
+			Risky = Color3.fromRGB(255, 255, 255),
 			BGDBColor = Color3.fromRGB(22, 24, 29),
 			BlockColor = Color3.fromRGB(28, 29, 34),
-			StrokeColor = Color3.fromRGB(37, 38, 43),
-			SwitchColor = Color3.fromRGB(255, 255, 255),
-			DropColor = Color3.fromRGB(33, 35, 39),
+			StrokeColor = Color3.fromRGB(197, 0, 255),
+			SwitchColor = Color3.fromRGB(197, 0, 255),
+			DropColor = Color3.fromRGB(197, 0, 255),
 			MouseEnter = Color3.fromRGB(55, 58, 65),
 			BlockBackground = Color3.fromRGB(39, 40, 47),
 			LineColor = Color3.fromRGB(65, 65, 65),
@@ -9911,6 +9911,7 @@ function Compkiller.new(Config : Window)
 		BlurElement.Size = UDim2.new(1, 0, 1, 0)
 		BlurElement.ZIndex = -100
 		BlurElement.Active = true
+
 
 		Compkiller:_Blur(BlurElement , WindowOpen);
 
