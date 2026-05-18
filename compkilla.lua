@@ -6153,18 +6153,18 @@ function Compkiller:SetTheme(name)
 		};
 	elseif name == "Default" then
 		Compkiller.Colors = {
-			Highlight = Color3.fromRGB(197, 0, 255),
-			Toggle = Color3.fromRGB(197, 0, 255),
-			Risky = Color3.fromRGB(255, 255, 255),
-			BGDBColor = Color3.fromRGB(22, 24, 29),
-			BlockColor = Color3.fromRGB(28, 29, 34),
-			StrokeColor = Color3.fromRGB(197, 0, 255),
-			SwitchColor = Color3.fromRGB(197, 0, 255),
-			DropColor = Color3.fromRGB(197, 0, 255),
-			MouseEnter = Color3.fromRGB(55, 58, 65),
-			BlockBackground = Color3.fromRGB(39, 40, 47),
-			LineColor = Color3.fromRGB(65, 65, 65),
-			HighStrokeColor = Color3.fromRGB(55, 56, 63),
+			["BGDBColor"] = Color3.new(0.0459068, 0.030321, 0.117241),
+			["BlockBackground"] = Color3.new(0.156272, 0.119596, 0.324138),
+			["BlockColor"] = Color3.new(0.0948428, 0.0576457, 0.165517),
+			["DropColor"] = Color3.new(0.131034, 0, 0.0813317),
+			["HighStrokeColor"] = Color3.new(0.136259, 0.101237, 0.296552),
+			["Highlight"] = Color3.new(0.992157, 0.0666667, 0.33474), -- for outline
+			["LineColor"] = Color3.new(0.992157, 0.0666667, 0.33474),
+			["MouseEnter"] = Color3.new(0.365517, 0, 0.120999),
+			["Risky"] = Color3.new(1, 0.6086, 0.152941),
+			["StrokeColor"] = Color3.new(0.992157, 0.0666667, 0.33474),
+			["SwitchColor"] = Color3.new(1, 1, 1),
+			["Toggle"] = Color3.new(0.835294, 0.054902, 0.248654),
 		};
 	elseif name == "Dark Blue" then
 		Compkiller.Colors = {
