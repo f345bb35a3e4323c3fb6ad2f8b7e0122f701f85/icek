@@ -6162,7 +6162,7 @@ function Compkiller:SetTheme(name)
 			["LineColor"] = Color3.new(0.992157, 0.0666667, 0.33474),
 			["MouseEnter"] = Color3.new(0.365517, 0, 0.120999),
 			["Risky"] = Color3.new(1, 0.6086, 0.152941),
-			["StrokeColor"] = Color3.new(0.992157, 0.0666667, 0.33474),
+			["StrokeColor"] = Color3.fromRGB(114, 0, 148),
 			["SwitchColor"] = Color3.new(1, 1, 1),
 			["Toggle"] = Color3.new(0.835294, 0.054902, 0.248654),
 		};
@@ -6192,7 +6192,7 @@ function Compkiller:SetTheme(name)
 			["LineColor"] = Color3.new(0.992157, 0.0666667, 0.33474),
 			["MouseEnter"] = Color3.new(0.365517, 0, 0.120999),
 			["Risky"] = Color3.new(1, 0.6086, 0.152941),
-			["StrokeColor"] = Color3.new(0.992157, 0.0666667, 0.33474),
+			["StrokeColor"] = Color3.fromRGB(114, 0, 148),
 			["SwitchColor"] = Color3.new(1, 1, 1),
 			["Toggle"] = Color3.new(0.835294, 0.054902, 0.248654)
 		}
