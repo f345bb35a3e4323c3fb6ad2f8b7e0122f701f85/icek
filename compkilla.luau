@@ -6187,7 +6187,7 @@ function Compkiller:SetTheme(name)
 			["BlockBackground"] = Color3.new(0.156272, 0.119596, 0.324138),
 			["BlockColor"] = Color3.new(0.0948428, 0.0576457, 0.165517),
 			["DropColor"] = Color3.new(0.131034, 0, 0.0813317),
-			["HighStrokeColor"] = Color3.fromRGB(98, 0, 255),,
+			["HighStrokeColor"] = Color3.fromRGB(98, 0, 255),
 			["Highlight"] = Color3.new(0.992157, 0.0666667, 0.33474), -- for outline
 			["LineColor"] = Color3.new(0.992157, 0.0666667, 0.33474),
 			["MouseEnter"] = Color3.new(0.365517, 0, 0.120999),
